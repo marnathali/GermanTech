@@ -1,0 +1,87 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+
+}
+
+/*-----seccion navbar---------*/
+/* cambia el color del boton de la navbar que esta activo, en este caso ¿quienes somos?*/
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #062B24;
+}
+
+.navbar-inverse{
+background-color: rgb(11, 83, 69);
+}
+
+.navbar-brand{
+	font-family: 'Lobster';
+	font-size: 2em;
+}
+
+@media (min-width: 750px), (max-width: 1024px){
+ ul.nav>li{
+ font-size:20px;
+
+ }
+ }
+
+ ul.nav>li{
+font-family: 'Lato', sans-serif;
+padding-right: 1em;
+}
+
+/*--------fin seccion navbar---------*/
+
+
+/*------seccion footer------*/
+address, .contacts{
+	text-align: center;
+}
+
+footer{
+	background-color: rgb(11, 83, 69);
+	color: white;
+	padding: 15px 0px 0px 0px;
+}
+.footer-hr{
+ 	border: 0.5px solid white;
+ }
+
+ small{
+ 	padding-left: 1em;
+ 	padding-right: 1em;
+ 	font-size: 0.8em;
+ }
+
+ @media (min-width: 750px) , (max-width: 1024px){
+    small{
+ 	font-size: 1.2em;
+ 	display: inline-flex;
+ }
+ address{
+ 	font-size: 1.4em;
+ }
+ }
+
+a>img{
+	padding-right:0.2em;
+}
+/*------fin seccion footer------*/
+h2, ul.nav,.jumbotron h1{
+font-family: 'Lobster', cursive;
+font-weight: bolder;
+line-height: 40px; 
+}
+
+/*decoraciones como hr*/
+
+hr {border: 2px solid #154360;
+ border-radius: 500px/30px; 
+ height: 0px; 
+ text-align: center;}
+ 
